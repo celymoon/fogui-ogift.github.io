@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body { 
+    color: #00a5cf;
+    background-color: #99d98c;
+}
+h1, h2{
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header img{
+    width: 50%;
+}
+
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.list ul li{
+    list-style-type: square;
+}
+
+.boji-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+footer img{
+    width: 50%;
+}
